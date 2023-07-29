@@ -1,0 +1,134 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1f2937;
+}
+.logo {
+  padding: 20px;
+  cursor: pointer;
+}
+
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  padding: 30px 20px 20px 30px;
+}
+nav li a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+.top-part {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  padding: 60px;
+}
+.top-part1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.big-text {
+  height: 100px;
+  width: 500px;
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: extra-bold;
+  padding: 0%;
+}
+.small-text {
+  height: 50px;
+  width: 400px;
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: 300;
+}
+.chiken {
+  width: 700px;
+  height: autp;
+}
+.button1 {
+  width: 120px;
+  height: 40px;
+  color: #f9faf8;
+  font-weight: 600;
+  border-radius: 11px;
+  background-color: #3883f6;
+  cursor: pointer;
+}
+.button2 {
+  width: 100px;
+  height: 40px;
+  color: #f9faf8;
+  font-weight: 600;
+  border-radius: 11px;
+  border: 3px solid white;
+  background-color: #3883f6;
+  cursor: pointer;
+}
+#menu {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.options-pics {
+  height: 200px;
+  width: 200px;
+  border: 6px solid #3883f6;
+  border-radius: 10px;
+}
+.options-text {
+  height: 200px;
+  width: 200px;
+  color: rgb(100, 98, 98);
+}
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 4em;
+}
+.quote {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-style: light italic;
+  font-size: 36px;
+  padding: 160px;
+  margin: 100px;
+}
+.marcus {
+  padding-left: 1090px;
+}
+.call {
+  background-color: #3883f6;
+  font-size: 24px;
+  color: #f9faf8;
+  padding: 80px;
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-bottom: 100px;
+  padding-top: 20px;
+  height: 10px;
+  width: 1000px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.call1 h5 {
+  font-size: 17px;
+  font-weight: 200;
+}
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 40px;
+}
